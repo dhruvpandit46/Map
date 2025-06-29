@@ -1,0 +1,180 @@
+/* 🌍 Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0f0f1e, #1c1f33);
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🧭 Header */
+header {
+  padding: 1.2rem 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #00f0ff;
+  text-shadow: 0 0 10px #00f0ff;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #b3eaff;
+  margin-top: 0.3rem;
+  opacity: 0.8;
+}
+
+/* 🔍 Top Controls */
+.top-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 0.8rem 1rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+  z-index: 10;
+}
+
+#search-box {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  flex: 1;
+  max-width: 400px;
+  background: #ffffff;
+  color: #000;
+}
+
+.top-controls button {
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #00f0ff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00f0ff;
+}
+
+.top-controls button:hover {
+  background: #00c0cc;
+  transform: translateY(-1px);
+}
+
+/* 🎯 Special Buttons */
+#deleteLast {
+  background: #ff4d4d;
+  box-shadow: 0 0 10px #ff4d4d;
+}
+
+#deleteLast:hover {
+  background: #cc0000;
+}
+
+#clearAll {
+  background: #ffcc00;
+  box-shadow: 0 0 10px #ffcc00;
+}
+
+#clearAll:hover {
+  background: #ffaa00;
+}
+
+/* 🔔 Maker's Note */
+.maker-note {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 10px rgba(0, 255, 255, 0.1);
+  color: #b3eaff;
+}
+
+/* 🗺️ Map */
+#map {
+  flex-grow: 1;
+  height: 100%;
+  min-height: 400px;
+  width: 100%;
+  border-radius: 0;
+  z-index: 1;
+}
+
+/* 📍 Custom Popup */
+.leaflet-popup-content-wrapper {
+  background: rgba(30, 30, 30, 0.9);
+  color: #f1f1f1;
+  font-size: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+.leaflet-popup-content {
+  margin: 8px 12px;
+}
+
+.leaflet-popup-tip {
+  background: rgba(30, 30, 30, 0.9);
+}
+
+/* 🦶 Footer */
+footer {
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  color: #b3eaff;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 -4px 10px rgba(0, 255, 255, 0.1);
+  position: sticky;
+  bottom: 0;
+  z-index: 10;
+}
+
+/* 📱 Responsive */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .top-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .top-controls button {
+    width: 100%;
+  }
+
+  #search-box {
+    width: 100%;
+  }
+
+  .maker-note {
+    font-size: 0.85rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}

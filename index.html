@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🗺️ MyMap Explorer</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 🌟 Header -->
+  <header>
+    <h1>🧭 MyMap Explorer</h1>
+    <p class="subtitle">Simple. Fast. Interactive Map with Custom Pins.</p>
+  </header>
+
+  <!-- 🔍 Top Control Buttons -->
+  <section class="top-controls">
+    <input type="text" id="search-box" placeholder="🔍 Search for a city, district, or landmark..." />
+    <button id="search-btn">Go</button>
+    <button id="locateMe">📍 My Location</button>
+    <button id="deleteLast">❌ Delete Last Pin</button>
+    <button id="clearAll">🧽 Clear All Pins</button>
+  </section>
+
+  <!-- ℹ️ Note from the Maker -->
+  <div class="maker-note">
+    🔔 This app supports searching for <strong>cities, towns, districts, states, countries</strong> using public OpenStreetMap data.
+  </div>
+
+  <!-- 🗺️ Map Container -->
+  <div id="map"></div>
+
+  <!-- 🧾 Footer -->
+  <footer>
+    Made with 💙 by Dhruv Pandit • Frontend Map Project
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Main App Script -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>

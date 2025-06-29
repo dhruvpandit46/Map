@@ -1,0 +1,72 @@
+[
+  {
+    "id": "pin1",
+    "title": "Gateway of India",
+    "lat": 18.921984,
+    "lon": 72.834654,
+    "popup": "🕌 Gateway of India, Mumbai"
+  },
+  {
+    "id": "pin2",
+    "title": "India Gate",
+    "lat": 28.612912,
+    "lon": 77.229509,
+    "popup": "🇮🇳 India Gate, New Delhi"
+  },
+  {
+    "id": "pin3",
+    "title": "Taj Mahal",
+    "lat": 27.175015,
+    "lon": 78.042155,
+    "popup": "🕌 Taj Mahal, Agra"
+  },
+  {
+    "id": "pin4",
+    "title": "Charminar",
+    "lat": 17.361563,
+    "lon": 78.474665,
+    "popup": "🕌 Charminar, Hyderabad"
+  },
+  {
+    "id": "pin5",
+    "title": "Howrah Bridge",
+    "lat": 22.585052,
+    "lon": 88.346401,
+    "popup": "🌉 Howrah Bridge, Kolkata"
+  },
+  {
+    "id": "pin6",
+    "title": "Bandra-Worli Sea Link",
+    "lat": 19.012305,
+    "lon": 72.814972,
+    "popup": "🌉 Bandra-Worli Sea Link"
+  },
+  {
+    "id": "pin7",
+    "title": "Red Fort",
+    "lat": 28.656159,
+    "lon": 77.241020,
+    "popup": "🏰 Red Fort, Delhi"
+  },
+  {
+    "id": "pin8",
+    "title": "Mysore Palace",
+    "lat": 12.305163,
+    "lon": 76.655208,
+    "popup": "🏰 Mysore Palace"
+  },
+  {
+    "id": "pin9",
+    "title": "Golden Temple",
+    "lat": 31.620017,
+    "lon": 74.876484,
+    "popup": "🛕 Golden Temple, Amritsar"
+  },
+  {
+    "id": "pin10",
+    "title": "Statue of Unity",
+    "lat": 21.838043,
+    "lon": 73.719102,
+    "popup": "🗿 Statue of Unity"
+  }
+]
